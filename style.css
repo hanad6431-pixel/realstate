@@ -265,6 +265,7 @@ header {
   border-radius: 20px;
   height: 380px;
   margin-top: 1px;
+  margin-left: 15px;
 }
 
 .contact-texte {
@@ -280,7 +281,7 @@ header {
   justify-content: space-around;
   margin-top: 60px;
   margin-bottom: 50px;
-  margin-left: 50px;
+  gap: 100px;
 }
 
 .form {
@@ -288,17 +289,18 @@ header {
   height: 50px;
   line-height: 30px;
   margin-bottom: 10px;
-  margin-left: 150px;
+ margin-left: 10px;
+ margin-right: 50px;
 }
 
 .are {
   width: 400px;
   height: 100px;
-  margin-left: 150px;
+ margin-left: 10px;
 }
 
 .btn6 {
-  margin-left: 40%;
+  margin-left: 30%;
   padding: 2px 60px;
   color: var(--second-color);
   background-color: var(--primer-color);
@@ -455,16 +457,23 @@ footer {
   .contact-flex {
     display: flex;
     flex-direction: column;
+    width: 400px;
   }
 
   .img-contact {
-    width: 380px;
+    width: 360px;
     margin-bottom: 30px;
   }
 
   .nooh {
-    width: 370px;
+  
   }
+  .form {
+  width: 370px;
+  height: 50px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
   
 
   .are{
